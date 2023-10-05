@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+    html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(5, 102, 99);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-image: url(https://www.pepperconstruction.com/sites/default/files/styles/max_1300x1300/public/images/pmc3.jpg?itok=mGx9VF3C);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(173, 226, 226);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(197, 238, 117);
+    min-height: 150px;
+}
+table, thead, tbody, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Principal.html" target="_blank">Página Principal</a></li>
+                <li><a href="Sobre.html" target="_blank">Sobre a Clínica</a></li>
+                <li><a href="#Horario">Horário de Atendimento</a></li>
+                <li><a href="Contato.html" target="_blank">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://www.lougheedengineering.com/wp-content/uploads/parkview-handmade-logo-180x180.png" alt="parkview" width="10%">
+            </div>
+    
+            <div class="content">
+                <div>
+                    <h1 id="Horario"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Horário de Atendimento</font></h1>
+                </div>
+                <div>
+                    <h2><font style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Serviços</font></h2>
+                </div>
+                <div>
+                    <h3><font style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Oncologia</font></h3>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">Acreditamos na luta contra o cancro com opções de tratamento revolucionárias, 
+                        uma equipa multidisciplinar de especialistas em oncologia subespecializados e uma abordagem ousada à 
+                        cura holística que coloca o paciente na vanguarda.</font></p>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">Na Parkview, acreditamos que o tratamento completo do câncer 
+                        vai muito além de apenas combater o câncer. É por isso que não oferecemos apenas tratamentos avançados – 
+                        oferecemos atendimento personalizado e holístico. Desde diagnósticos e opções de tratamento de última 
+                        geração até nossa equipe exclusiva de cuidados paliativos e programa de sobrevivência, nossos médicos 
+                        subespecializados e modelo de atendimento diferenciado oferecem atendimento oncológico abrangente e 
+                        atenção compassiva e personalizada.</font></p>
+                </div>
+                <div>
+                    <h3><font style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Cardiologia</font></h3>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">Como líder em cuidados cardíacos, oferecemos inovações cardíacas avançadas, 
+                        serviços de prevenção e triagem, clínicas especializadas e uma equipe especializada focada no tratamento 
+                        de condições complexas.</font></p>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">No Parkview Heart Institute, nos dedicamos aos cuidados 
+                        com o coração. Embora novas opções de tratamento continuem a surgir, um foco de nossos médicos e equipe 
+                        de atendimento permanece constante: você. Nossa equipe de especialistas e funcionários oferecem a
+                        tendimento cardíaco personalizado com foco em restaurar sua qualidade de vida.
+                        Aqui, você encontrará nossa abordagem exclusiva de equipe de atendimento, as mais 
+                        recentes inovações cardíacas, serviços de prevenção e rastreamento e quase 20 clínicas especializadas
+                        ambulatoriais - de AFib a varizes, saúde e bem-estar.
+                        Não é de admirar que mais pessoas escolham o Parkview para cuidados cardíacos do que qualquer outro 
+                        hospital da região. Para agendar uma consulta com Cardiologia, ligue para 260-266-5700.</font></p>
+                </div>
+                <div>
+                    <h3><font style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Ortopedia</font></h3>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">É hora de avançar novamente com o que há de mais moderno em cuidados ortopédicos — incluindo 
+                        substituição de articulação minimamente invasiva, opções cirúrgicas robóticas, medicina esportiva, tratamento no mesmo dia e 
+                        muito mais.</font></p>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">Se você está adiando os cuidados ortopédicos necessários para “algum dia”, temos 
+                        boas notícias para você. Algum dia é hoje. Na Parkview, oferecemos uma gama completa de serviços para ajudá-lo a se movimentar 
+                        novamente – incluindo substituição de articulação minimamente invasiva, opções cirúrgicas robóticas, cuidados com medicina 
+                        esportiva, cirurgia ambulatorial e hospitalar, opções de tratamento no mesmo dia e muito mais. Porque quando se trata de 
+                        recuperar sua vida, não há melhor momento do que hoje.</font></p>
+                </div>
+                <div>
+                    <h3><font style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Neurologia</font></h3>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">Estamos empenhados em fornecer o melhor em cuidados neurológicos, com um centro 
+                        dedicado ao AVC, serviços de reabilitação, aconselhamento genético e clínicas ambulatoriais especializadas focadas 
+                        especificamente nas suas necessidades.</font></p>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">Acreditamos em um melhor atendimento ao paciente. É por isso que nossos médicos 
+                        se esforçam continuamente para fazer mais por você e por aqueles que você ama – fornecendo tratamento avançado do cérebro, da 
+                        coluna e do sistema nervoso central. Os provedores Parkview oferecem experiência em uma ampla gama de serviços e tecnologias 
+                        para atender às suas necessidades – incluindo reabilitação, aconselhamento genético, acesso a ensaios clínicos e uma abordagem 
+                        exclusiva de equipe de atendimento que coloca você no centro.</font></p>
+                </div>
+                <div>
+                    <h3><font style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Pediatria</font></h3>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">Para melhor apoiar o desenvolvimento saudável dos pacientes jovens, 
+                        oferecemos cuidados de rotina personalizados, serviços de emergência dedicados e mais especialidades pediátricas 
+                        do que qualquer sistema na região.</font></p>
+                </div>
+                <div>
+                    <p><font style="font-family: Arial, Helvetica, sans-serif;">Na Parkview, acreditamos no melhor – para todas as crianças e jovens 
+                        da sua vida. É por isso que estamos continuamente a elevar a fasquia, fornecendo não apenas cuidados 
+                        pediátricos especializados, mas oferecendo mais especialidades pediátricas do que qualquer hospital da 
+                        região. Nossa equipe de pediatras, assistentes médicos e enfermeiros credenciados oferece atendimento 
+                        personalizado ao longo da vida do seu filho, seja isso incluindo cuidados de rotina ou a atenção de um 
+                        especialista. Nosso objetivo é oferecer o melhor atendimento pediátrico perto de casa.</font></p>
+                </div>
+                <div>
+                    <table class="center" style="width: 700px;">
+                        <thead style="background-color: black;">
+                            <tr>
+                                <th><font style="color: white;">Serviços</font></th>
+                                <th><font style="color: white;">Segunda a Sexta</font></th>
+                                <th><font style="color: white;">Sábados</font></th>
+                                <th><font style="color: white;">Domingos e Feriados</font></th>
+                            </tr>
+                        </thead>
+                        <tbody style="text-align: center;">
+                            <tr>
+                                <td>Oncologia</td>
+                                <td>9h - 17h</td>
+                                <td>9h - 15h</td>
+                                <td>9h - 12h</td>
+                            </tr>
+                            <tr>
+                                <td>Cardiologia</td>
+                                <td>9h - 17h</td>
+                                <td>9h - 15h</td>
+                                <td>9h - 12h</td>
+                            </tr>
+                            <tr>
+                                <td>Ortopedia</td>
+                                <td>9h - 17h</td>
+                                <td>9h - 15h</td>
+                                <td>9h - 12h</td>
+                            </tr>
+                            <tr>
+                                <td>Neurologia</td>
+                                <td>9h - 17h</td>
+                                <td>9h - 15h</td>
+                                <td>9h - 12h</td>
+                            </tr>
+                            <tr>
+                                <td>Pediatria</td>
+                                <td>9h - 17h</td>
+                                <td>9h - 15h</td>
+                                <td>9h - 12h</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    
+            <div class="footer">
+                <table style="width: 800px; border: hidden;">
+                    <thead style="border: hidden;">
+                        <tr>
+                            <th style="border: hidden;">Parkview Regional Medical Center</th>
+                            <th>Parkview Hospital Randallia</th>
+                        </tr>
+                    </thead>
+                    <tbody style="text-align: center">
+                        <tr style="border: hidden;">
+                            <td style="border: hidden;">11109 Parkview Plaza Drive, 
+                                Entrance 1
+                            </td>
+                            <td>2200 Randallia Drive
+                            </td>
+                        </tr>
+                        <tr style="border: hidden;">
+                            <td style="border: hidden;">Fort Wayne, Indiana 46845 
+                                </td>
+                            <td>Fort Wayne, Indiana 46805 
+                                </td>
+                        </tr style="border: hidden">
+                        <tr>
+                            <td style="border: hidden;">(260) 266-1000</td>
+                            <td>(260) 373-4000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

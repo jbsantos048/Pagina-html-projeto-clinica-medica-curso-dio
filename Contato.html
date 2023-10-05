@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<style>
+    html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(5, 102, 99);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-image: url(https://assets-cdn.static-gm.com/Assets/edeb7917-95d2-4d6e-b3c3-4542f17fe756/b2165d4c-4b86-4b3e-a645-170e3626a0c4/v-1472524784/Desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(173, 226, 226);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(197, 238, 117);
+    min-height: 150px;
+}
+</style>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Principal.html" target="_blank">Página Principal</a></li>
+                <li><a href="Sobre.html" target="_blank">Sobre a Clínica</a></li>
+                <li><a href="Horario.html" target="_blank">Horário de Atendimento</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <div>
+                    <img src="https://www.lougheedengineering.com/wp-content/uploads/parkview-handmade-logo-180x180.png" alt="parkview" width="10%">
+                </div>
+            </div>
+    
+            <div class="content">
+                <div>
+                    <h1 id="contato"><font style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Fale Conosco</font></h1>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th style="text-align: left;">Unidade:</th>
+                            <td>Parkview Regional Medical Center</td>
+                        </tr>
+                        <tr>
+                            <th>Endereço:</th>
+                            <td>11109 Parkview Plaza Drive, 
+                                Entrance 1 - Fort Wayne, Indiana 46845 </td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left;">Telefone:</th>
+                            <td>(260) 266-1000</td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <div>
+                    <table>
+                        <tr>
+                            <th style="text-align: left;">Unidade:</th>
+                            <td>Parkview Regional Hospital Randallia</td>
+                        </tr>
+                        <tr>
+                            <th>Endereço:</th>
+                            <td>12200 Randallia Drive -  Fort Wayne, Indiana 46805</td>
+                        </tr>
+                        <tr>
+                            <th style="text-align: left;">Telefone:</th>
+                            <td>(260) 373-4000</td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.5870952224027!2d-85.10438162404272!3d41.187172308390416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x881607e35242d32f%3A0x86cd7921f4bdc591!2sParkview%20Health!5e0!3m2!1spt-BR!2sbr!4v1696533146908!5m2!1spt-BR!2sbr" width="600" height="250" style="border: 10px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <br>
+                <div>
+                    <form action="#">
+                        <fieldset style="padding: 20px;">
+                        <legend>Entre em contato</legend>
+                        <label for="name">Nome:</label><br>
+                        <input type="text" id="name" name="name"><br><br>
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="subject">Assunto:</label><br>
+                        <input type="text" id="subject" name="subject"><br><br>
+                        <label for="message">Mensagem:</label><br>
+                        <textarea name="message" id="message" cols="100" rows="20"></textarea><br><br>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="footer">
+                <table style="width: 800px;">
+                    <thead>
+                        <tr>
+                            <th>Parkview Regional Medical Center</th>
+                            <th>Parkview Hospital Randallia</th>
+                        </tr>
+                    </thead>
+                    <tbody style="text-align: center">
+                        <tr>
+                            <td>11109 Parkview Plaza Drive, 
+                                Entrance 1
+                            </td>
+                            <td>2200 Randallia Drive
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Fort Wayne, Indiana 46845 
+                                </td>
+                            <td>Fort Wayne, Indiana 46805 
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>(260) 266-1000</td>
+                            <td>(260) 373-4000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
